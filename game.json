@@ -11,7 +11,7 @@
     "folderProject": false,
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "pixelsRounding": true,
+    "pixelsRounding": false,
     "projectUuid": "2696f04a-d185-4a96-a781-1f57127d7baa",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
@@ -21,7 +21,7 @@
     "author": "MultimetroPecas",
     "windowWidth": 800,
     "windowHeight": 600,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\dyego.alves\\Desktop\\multimetro-partes-app",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -167,6 +167,15 @@
         "metadata": "",
         "name": "Roboto-Regular.ttf",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "seta-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "seta-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -178,8 +187,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "multimetro1",
-      "name": "multimetro1",
+      "mangledName": "multimetro_45partes",
+      "name": "multimetro-partes",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -198,11 +207,17 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.7251999999999954,
+        "zoomFactor": 0.7051999999999945,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "fade",
+          "type": "string",
+          "value": ""
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -229,9 +244,9 @@
           "name": "imgLeft",
           "persistentUuid": "06fbaf17-6fe7-4c1d-b9f1-5084e14cc5ae",
           "width": 245,
-          "x": 69,
-          "y": 263,
-          "zOrder": 2,
+          "x": 68,
+          "y": 324,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -242,7 +257,7 @@
           "height": 32,
           "layer": "",
           "locked": false,
-          "name": "TitlePages",
+          "name": "TitlePages00",
           "persistentUuid": "c065972a-cb04-4bc5-b55f-a969744a3b73",
           "width": 179,
           "x": 28,
@@ -293,8 +308,8 @@
           "name": "btl",
           "persistentUuid": "c4502199-7504-46a2-9d7a-f545c0be9c0d",
           "width": 0,
-          "x": 663,
-          "y": 8,
+          "x": 705,
+          "y": 32,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -309,8 +324,8 @@
           "name": "btd",
           "persistentUuid": "53c88708-a01b-4a30-8a6e-f342452b1fd3",
           "width": 0,
-          "x": 717,
-          "y": 7,
+          "x": 759,
+          "y": 31,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -370,7 +385,7 @@
           "height": 108,
           "layer": "",
           "locked": false,
-          "name": "textLeft01",
+          "name": "textLeft00",
           "persistentUuid": "4adc03c5-16c9-4fc2-909e-4f04108045f7",
           "width": 333,
           "x": 24,
@@ -386,11 +401,11 @@
           "height": 108,
           "layer": "",
           "locked": false,
-          "name": "textLeft02",
+          "name": "textLeft01",
           "persistentUuid": "ca1d6213-2c7d-457d-97f7-a21fd675ce37",
           "width": 332,
-          "x": 24,
-          "y": 134,
+          "x": 25,
+          "y": 135,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -402,11 +417,11 @@
           "height": 108,
           "layer": "",
           "locked": false,
-          "name": "textLeft03",
+          "name": "textLeft02",
           "persistentUuid": "9f29e5ef-b72b-4597-b7b2-f99a0c1dc4c0",
           "width": 350,
-          "x": 24,
-          "y": 133,
+          "x": 25,
+          "y": 135,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -427,6 +442,206 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 108,
+          "layer": "",
+          "locked": false,
+          "name": "textLeft03",
+          "persistentUuid": "4198d496-a09a-4ad0-b428-d2ffe7f80841",
+          "width": 350,
+          "x": 25,
+          "y": 135,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 108,
+          "layer": "",
+          "locked": false,
+          "name": "textLeft04",
+          "persistentUuid": "b1889886-1a80-462e-b5f5-833de0220f8b",
+          "width": 350,
+          "x": 25,
+          "y": 135,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 173,
+          "layer": "",
+          "locked": false,
+          "name": "textLeft05",
+          "persistentUuid": "c945d7ec-c85a-4d83-942a-bd75f263e828",
+          "width": 350,
+          "x": 25,
+          "y": 135,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TitlePages01",
+          "persistentUuid": "2fbe5cab-386e-47c0-b323-ee53794c8406",
+          "width": 0,
+          "x": 28,
+          "y": 75,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TitlePages02",
+          "persistentUuid": "2a19632d-e89c-442a-8e6b-5b8df740360f",
+          "width": 0,
+          "x": 28,
+          "y": 75,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TitlePages03",
+          "persistentUuid": "3de2e30e-e28b-4bf9-be99-3047d7b5bd20",
+          "width": 0,
+          "x": 28,
+          "y": 75,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TitlePages04",
+          "persistentUuid": "fc434ebd-e870-4875-aec4-ce6412206a04",
+          "width": 0,
+          "x": 28,
+          "y": 75,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "TitlePages05",
+          "persistentUuid": "5e0dd535-49e7-45bd-9e54-9c49bf06eb3c",
+          "width": 0,
+          "x": 28,
+          "y": 75,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 21,
+          "layer": "",
+          "locked": false,
+          "name": "seta",
+          "persistentUuid": "9415951b-28cf-44e7-be5b-4541a8a55200",
+          "width": 230,
+          "x": 276,
+          "y": 455,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pox",
+              "type": "string",
+              "value": "276"
+            },
+            {
+              "name": "poy",
+              "type": "string",
+              "value": "455"
+            },
+            {
+              "name": "ang1",
+              "type": "string",
+              "value": "-45"
+            },
+            {
+              "name": "ang2",
+              "type": "string",
+              "value": "-25"
+            },
+            {
+              "name": "ang3",
+              "type": "string",
+              "value": "-10"
+            },
+            {
+              "name": "ang4",
+              "type": "string",
+              "value": "10"
+            },
+            {
+              "name": "ang5",
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "name": "tamW1",
+              "type": "string",
+              "value": "230"
+            },
+            {
+              "name": "tamH1",
+              "type": "string",
+              "value": "21"
+            },
+            {
+              "name": "tamW2",
+              "type": "string",
+              "value": "362"
+            },
+            {
+              "name": "tamH2",
+              "type": "string",
+              "value": "21"
+            }
+          ]
         }
       ],
       "objects": [
@@ -477,7 +692,12 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "image4",
@@ -618,7 +838,7 @@
         {
           "bold": false,
           "italic": false,
-          "name": "TitlePages",
+          "name": "TitlePages00",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -627,6 +847,106 @@
           "effects": [],
           "behaviors": [],
           "string": "ORIENTAÇÃO",
+          "font": "Roboto-Regular.ttf",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "TitlePages01",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "DISPLAY",
+          "font": "Roboto-Regular.ttf",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "TitlePages02",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ESCALAS",
+          "font": "Roboto-Regular.ttf",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "TitlePages03",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "CHAVE SELETORA",
+          "font": "Roboto-Regular.ttf",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "TitlePages04",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "BORNES",
+          "font": "Roboto-Regular.ttf",
+          "characterSize": 25,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "TitlePages05",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "PONTAS DE PROVA",
           "font": "Roboto-Regular.ttf",
           "characterSize": 25,
           "color": {
@@ -722,7 +1042,12 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "btl2",
@@ -738,8 +1063,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 24,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -762,7 +1087,12 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "btl2",
@@ -778,8 +1108,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 24,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -878,7 +1208,7 @@
         {
           "bold": false,
           "italic": false,
-          "name": "textLeft01",
+          "name": "textLeft00",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -898,7 +1228,7 @@
         {
           "bold": false,
           "italic": false,
-          "name": "textLeft02",
+          "name": "textLeft01",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -918,7 +1248,7 @@
         {
           "bold": false,
           "italic": false,
-          "name": "textLeft03",
+          "name": "textLeft02",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -934,6 +1264,106 @@
             "g": 117,
             "r": 65
           }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "textLeft03",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "É o botão onde você irá selecionar a escala desejada. E em alguns modelos também serve para ligar e desligar o aparelho.",
+          "font": "Roboto-Regular.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 5,
+            "g": 117,
+            "r": 65
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "textLeft04",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "São os terminais onde são instaladas as pontas de prova do aparelho. Dependendo do modelo de multímetro pode haver dois, três ou até mesmo quatro bornes de contato.",
+          "font": "Roboto-Regular.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 5,
+            "g": 117,
+            "r": 65
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "textLeft05",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "São cabos que você ligará aos bornes do instrumento para executar todos os testes mostrados anteriormente. A ponta de prova preta é instalada no terminal tenha a inscrição COM, e a vermelha pode ser alternada nos demais bornes.",
+          "font": "Roboto-Regular.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 5,
+            "g": 117,
+            "r": 65
+          }
+        },
+        {
+          "name": "seta",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "seta",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "seta-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 30
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 1,
+                        "y": 29
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -982,6 +1412,16 @@
                 "value": "Cache"
               },
               "parameters": [
+                "textLeft01"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
                 "textLeft02"
               ],
               "subInstructions": []
@@ -993,6 +1433,191 @@
               },
               "parameters": [
                 "textLeft03"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textLeft04"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textLeft05"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages01"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages02"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages03"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages04"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages05"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "seta"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "imgLeft",
+                "+",
+                "500*TimeDelta()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "seta",
+                "+",
+                "350*TimeDelta()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "textLeft00",
+                "+",
+                "350*TimeDelta()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "textLeft01",
+                "+",
+                "350*TimeDelta()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "textLeft02",
+                "+",
+                "350*TimeDelta()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "textLeft03",
+                "+",
+                "350*TimeDelta()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "textLeft04",
+                "+",
+                "350*TimeDelta()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "textLeft05",
+                "+",
+                "350*TimeDelta()"
               ],
               "subInstructions": []
             }
@@ -1007,17 +1632,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "btd",
-                "Left"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -1027,14 +1641,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
             }
           ],
           "actions": [],
@@ -1043,22 +1649,201 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "btd",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ChangeSprite"
+                    "value": "Opacity"
                   },
                   "parameters": [
                     "imgLeft",
-                    "+",
-                    "1"
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "seta",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "textLeft00",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "textLeft01",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "textLeft02",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "textLeft03",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "textLeft04",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "textLeft05",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "btd",
+                    "Tween",
+                    "\"hover\"",
+                    "1.0",
+                    "1.0",
+                    "\"bouncePast\"",
+                    "100",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "btd",
+                    "Tween",
+                    "\"press\"",
+                    "0.85",
+                    "0.85",
+                    "\"easeOutQuad\"",
+                    "50",
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeSprite"
+                      },
+                      "parameters": [
+                        "imgLeft",
+                        "+",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ]
         },
@@ -1067,17 +1852,6 @@
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "btd",
-                "Left"
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -1090,14 +1864,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
             }
           ],
           "actions": [],
@@ -1106,22 +1872,201 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "btd",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ChangeSprite"
+                    "value": "Opacity"
                   },
                   "parameters": [
                     "imgLeft",
-                    "-",
-                    "1"
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "seta",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "textLeft00",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "textLeft01",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "textLeft02",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "textLeft03",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "textLeft04",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::Opacity"
+                  },
+                  "parameters": [
+                    "textLeft05",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "btl",
+                    "Tween",
+                    "\"hover\"",
+                    "1.0",
+                    "1.0",
+                    "\"bouncePast\"",
+                    "100",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "btl",
+                    "Tween",
+                    "\"press\"",
+                    "0.85",
+                    "0.85",
+                    "\"easeOutQuad\"",
+                    "50",
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeSprite"
+                      },
+                      "parameters": [
+                        "imgLeft",
+                        "-",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ]
         },
@@ -1150,7 +2095,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "textLeft01",
+                "textLeft00",
                 ""
               ],
               "subInstructions": []
@@ -1161,7 +2106,142 @@
                 "value": "Cache"
               },
               "parameters": [
+                "textLeft01"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
                 "textLeft02"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textLeft03"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textLeft04"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textLeft05"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "TitlePages00",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages01"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages02"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages03"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages04"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages05"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "seta"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "seta",
+                "=",
+                "seta.Variable(tamW1)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "seta",
+                "=",
+                "seta.Variable(ang1)"
               ],
               "subInstructions": []
             }
@@ -1190,10 +2270,20 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textLeft00"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Montre"
               },
               "parameters": [
-                "textLeft02",
+                "textLeft01",
                 ""
               ],
               "subInstructions": []
@@ -1204,7 +2294,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "textLeft01"
+                "textLeft02"
               ],
               "subInstructions": []
             },
@@ -1215,6 +2305,122 @@
               },
               "parameters": [
                 "textLeft03"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textLeft04"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textLeft05"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages00"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "TitlePages01",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages02"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages03"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages04"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages05"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "seta",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "seta",
+                "=",
+                "seta.Variable(ang1)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "seta",
+                "=",
+                "seta.Variable(tamW1)"
               ],
               "subInstructions": []
             }
@@ -1243,11 +2449,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "Cache"
               },
               "parameters": [
-                "textLeft03",
-                ""
+                "textLeft00"
               ],
               "subInstructions": []
             },
@@ -1264,10 +2469,126 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "textLeft02",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Cache"
               },
               "parameters": [
-                "textLeft02"
+                "textLeft03"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textLeft04"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textLeft05"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages00"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages01"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "TitlePages02",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages03"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages04"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages05"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "seta",
+                "=",
+                "seta.Variable(ang2)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "seta",
+                "=",
+                "seta.Variable(tamW1)"
               ],
               "subInstructions": []
             }
@@ -1296,11 +2617,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "Cache"
               },
               "parameters": [
-                "textLeft03",
-                ""
+                "textLeft00"
               ],
               "subInstructions": []
             },
@@ -1321,6 +2641,122 @@
               },
               "parameters": [
                 "textLeft02"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "textLeft03",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textLeft04"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textLeft05"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages00"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages01"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages02"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "TitlePages03",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages04"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages05"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "seta",
+                "=",
+                "seta.Variable(ang3)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "seta",
+                "=",
+                "seta.Variable(tamW1)"
               ],
               "subInstructions": []
             }
@@ -1349,11 +2785,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "Cache"
               },
               "parameters": [
-                "textLeft03",
-                ""
+                "textLeft00"
               ],
               "subInstructions": []
             },
@@ -1374,6 +2809,122 @@
               },
               "parameters": [
                 "textLeft02"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textLeft03"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "textLeft04",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textLeft05"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages00"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages01"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages02"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages03"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "TitlePages04",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages05"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "seta",
+                "=",
+                "seta.Variable(ang4)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "seta",
+                "=",
+                "seta.Variable(tamW1)"
               ],
               "subInstructions": []
             }
@@ -1402,11 +2953,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "Cache"
               },
               "parameters": [
-                "textLeft03",
-                ""
+                "textLeft00"
               ],
               "subInstructions": []
             },
@@ -1427,6 +2977,122 @@
               },
               "parameters": [
                 "textLeft02"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textLeft03"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textLeft04"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "textLeft05",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages00"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages01"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages02"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages03"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "TitlePages04"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "TitlePages05",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "seta",
+                "=",
+                "seta.Variable(ang5)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "seta",
+                "=",
+                "seta.Variable(tamW2)"
               ],
               "subInstructions": []
             }
@@ -1469,7 +3135,12 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],
